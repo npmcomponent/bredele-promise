@@ -1,30 +1,11 @@
 {
   "name": "bredele-promise",
-  "version": "0.1.0",
   "description": "Promises A+ implementation based on emitter",
+  "version": "0.1.0",
+  "keywords": [],
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bredele/promise.git"
-  },
-  "keywords": [
-    "promise",
-    "a+",
-    "then",
-    "emitter"
-  ],
-  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bredele/promise/issues"
-  },
   "dependencies": {
-    "component-emitter": "~1.1.2"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "devDependencies": {
-    "mocha": "~1.18.0"
-  }
+  "license": "MIT"
 }
